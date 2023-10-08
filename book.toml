@@ -1,5 +1,5 @@
 [book]
-title = "راست (Rust) پروگرامما تېلى دەرىسلىكى"
+title = "The Rust Programming Language"
 authors = ["Steve Klabnik", "Carol Nichols", "Contributions from the Rust Community"]
 language = "ug"
 multilingual = true
