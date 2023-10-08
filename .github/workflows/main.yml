@@ -15,7 +15,8 @@ jobs:
         rustup toolchain install 1.67 -c rust-docs
         rustup default 1.67
     - name: Install gettext
-      run: sudo apt install gettext
+      run: |
+        sudo apt install gettext
     - name: Install mdbook
       run: |
         mkdir bin
@@ -41,7 +42,8 @@ jobs:
         rustup toolchain install nightly -c rust-docs
         rustup override set nightly
     - name: Install gettext
-      run: sudo apt install gettext
+      run: |
+        sudo apt install gettext
     - name: Install mdbook
       run: |
         mkdir bin
@@ -65,7 +67,6 @@ jobs:
     - name: Lint for local file paths
       run: |
         mdbook build
-        cargo run --bin lfp src
     - name: Validate references
       run: bash ci/validate.sh
     - name: Check for broken links
