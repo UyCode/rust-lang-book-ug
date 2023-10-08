@@ -53,10 +53,13 @@ jobs:
       run: sudo apt-get install aspell
     - name: Install shellcheck
       run: sudo apt-get install shellcheck
+    - name: Install mdbook-svgbob
+      run: cargo install mdbook-svgbob
     - name: Report versions
       run: |
         rustup --version
         rustc -Vv
+        gettext -V
         mdbook --version
         aspell --version
         shellcheck --version
