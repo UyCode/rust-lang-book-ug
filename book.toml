@@ -1,8 +1,42 @@
 [book]
-title = "The Rust Programming Language"
+title = "راست (Rust) پروگرامما تېلى دەرىسلىكى"
 authors = ["Steve Klabnik", "Carol Nichols", "Contributions from the Rust Community"]
+language = "ug"
+multilingual = true
+text-direction = "rtl"
+src = "src"
+
+[build]
+extra-watch-dirs = ["po"]
+
+[preprocessor.gettext]
+after = ["links"]
+
+[preprocessor.svgbob]
+renderers = ["html"]
+after = ["gettext"]
+class = "bob"
 
 [output.html]
-additional-css = ["ferris.css", "theme/2018-edition.css"]
-additional-js = ["ferris.js"]
-git-repository-url = "https://github.com/rust-lang/book"
+curly-quotes = true
+#additional-js = ["theme/speaker-notes.js"]
+additional-css = [
+  "theme/css/svgbob.css",
+  "theme/css/speaker-notes.css",
+  "theme/css/language-picker.css",
+  "theme/css/frontmatter.css",
+]
+site-url = "/rust-lang-book-ug/"
+git-repository-url = "https://uycode.github.io/rust-lang-book-ug"
+edit-url-template = "https://uycode.github.io/rust-lang-book-ug/edit/main/{path}"
+
+[output.html.fold]
+enable = true
+level = 0
+
+[output.html.playground]
+editable = true
+line-numbers = true
+
+[output.html.search]
+use-boolean-and = true
