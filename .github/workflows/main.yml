@@ -40,6 +40,8 @@ jobs:
         rustup set profile minimal
         rustup toolchain install nightly -c rust-docs
         rustup override set nightly
+    - name: Install gettext
+      run: sudo apt install gettext
     - name: Install mdbook
       run: |
         mkdir bin
