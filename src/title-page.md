@@ -1,26 +1,32 @@
-# The Rust Programming Language
+# Rust پىروگرامما لايھەلەش تېلى؜
 
-*by Steve Klabnik and Carol Nichols, with contributions from the Rust Community*
+؜تۈزگۈچىلەر: 
 
-This version of the text assumes you’re using Rust 1.67.1 (released 2023-02-09)
-or later. See the [“Installation” section of Chapter 1][install]<!-- ignore -->
-to install or update Rust.
+*Steve Klabnik and Carol Nichols, with contributions from the Rust Community*
 
-The HTML format is available online at
-[https://doc.rust-lang.org/stable/book/](https://doc.rust-lang.org/stable/book/)
-and offline with installations of Rust made with `rustup`; run `rustup docs
---book` to open.
+ئۇيغۇرچىغا تەرجىمە قىلغۇچىلار:
 
-Several community [translations] are also available.
+*ئەخمەتجان [UyCode](mailto:Hyper-Hack@outlook.com)*
 
-This text is available in [paperback and ebook format from No Starch
-Press][nsprust].
+تەرجىمە قىلىپ ئۆزلەشتۈرۈشكە ياردەملىشىڭ...
+
+؜بۇ دەرىسلىك ئۈگەنگۈچىنى Rust نىڭ 1.67.1 (2023-يىلى9-چى فىۋرال ) ياكى شۇنىڭدىن كىيىنكى نەشرىنى  ئىشلىتىشنى تەۋسىيە قىلىدۇ.  [1-بابنىڭ «قاچىلاش» بۆلىكى][install] نى كۆرۈپ Rustنى قاچىلاڭ ياكى نەشرىنى يېڭىلاڭ.
+
+؜HTML فورماتتىكى تور نۇسقىسىنى [بۇيەردىن](https://uycode.github.io/rust-lang-book-ug) ياكى [Github](https://github.com/UyCode/rust-lang-book-ug)؜دىن كودنى چۈشۈرۈپ `cargo install mdbook` نى ئىجرا قىلىپ قاچىلىغاندىن كىيىن `mdbook serve` نى ئىجرا قىلىپ يەرلىكتە كۆرسىڭىزمۇ بولىدۇ.
+
+؜باشقا تىلدىكى [تەرجىمە][translations] نۇسقىسىمۇ بار ئەلۋەتتە.
+
+ئۇيغۇرچە نۇسقىسىنىڭ قەغەز كىتاب نۇسقىسى تېخى تارقىتىلمىدى.
+
+> 🚨تېخىمۇ ئۆزگىچە ئۆگىنىش تەجرىبىسى كېرەكمۇ؟ Rust كىتابىنىڭ ئوخشىمىغان نۇسخىسىنى سىناپ بېقىڭ
+> ئۇلار: quizes, highlighting, visualization قاتارلىقلارنى ئۆزئىچىگە ئالىدۇ.
+> 
+> ؜ [https://rust-book.cs.brown.edu](https://rust-book.cs.brown.edu)
 
 [install]: ch01-01-installation.html
-[editions]: appendix-05-editions.html
-[nsprust]: https://nostarch.com/rust-programming-language-2nd-edition
-[translations]: appendix-06-translation.html
 
-> **🚨 Want a more interactive learning experience? Try out a different version
-> of the Rust Book, featuring: quizzes, highlighting, visualizations, and
-> more**: <https://rust-book.cs.brown.edu>
+[editions]: appendix-05-editions.html
+
+[nsprust]: https://nostarch.com/rust-programming-language-2nd-edition
+
+[translations]: appendix-06-translation.html

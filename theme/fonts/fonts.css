@@ -1,46 +1,35 @@
 h1 {
-    font-family: "ALKATIP Tor" !important;
+    font-family: "ALKATIP Tor", serif !important;
     font-size: 1.8em !important;
     font-weight: Bold;
 }
 h2 {
-    font-family: "ALKATIP Tor" !important;
+    font-family: "ALKATIP Tor", serif !important;
     font-size: 1.5em !important;
-    font-weight: regular;
 }
 h3 {
-    font-family: "ALKATIP Tor" !important;
+    font-family: "ALKATIP Tor", serif !important;
     font-size: 1.3em !important;
-    font-weight: regular;
 }
 h4 {
-    font-family: "ALKATIP Tor" !important;
-    font-weight: regular;
+    font-family: "ALKATIP Tor", serif !important;
 }
 h5 {
-    font-family: "ALKATIP Tor" !important;
-    font-weight: regular;
+    font-family: "ALKATIP Tor", serif !important;
 }
 h6 {
-    font-family: "ALKATIP Tor" !important;
-    font-weight: regular;
+    font-family: "ALKATIP Tor", serif !important;
 }
 
 p {
-    font-family: "ALKATIP Tor" !important;
+    font-family: "ALKATIP Tor", serif !important;
     font-size: 1.1em;
-    font-weight: regular;
-}
-
-blockquote {
-    direction: ltr !important;
 }
 
 
 li.chapter-item {
-    font-family: "ALKATIP Tor" !important;
+    font-family: "ALKATIP Tor", serif !important;
     font-size: 1.1em;
-    font-weight: regular;
 }
 
 @font-face {
