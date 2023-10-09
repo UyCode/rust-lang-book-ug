@@ -14,9 +14,6 @@ jobs:
         rustup set profile minimal
         rustup toolchain install 1.70 -c rust-docs
         rustup default 1.70
-    - name: Install gettext
-      run: |
-        sudo apt install gettext
     - name: Install mdbook
       run: |
         mkdir bin
@@ -41,9 +38,6 @@ jobs:
         rustup set profile minimal
         rustup toolchain install nightly -c rust-docs
         rustup override set nightly
-    - name: Install gettext
-      run: |
-        sudo apt install gettext
     - name: Install mdbook
       run: |
         mkdir bin
@@ -53,13 +47,10 @@ jobs:
       run: sudo apt-get install aspell
     - name: Install shellcheck
       run: sudo apt-get install shellcheck
-    - name: Install mdbook-svgbob
-      run: cargo install mdbook-svgbob
     - name: Report versions
       run: |
         rustup --version
         rustc -Vv
-        gettext -V
         mdbook --version
         aspell --version
         shellcheck --version
