@@ -31,6 +31,7 @@ jobs:
     steps:
       - name: Check Commit Message
         id: check_commit
+        # custom action to check commit message
         run: |
           commit_message="${{ github.event.head_commit.message }}"
           if [[ $commit_message == *deploy* ]]; then
