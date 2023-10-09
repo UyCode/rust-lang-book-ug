@@ -1,4 +1,4 @@
-# Introduction
+# ؜تونۇشتۇرۇش
 
 > Note: This edition of the book is the same as [The Rust Programming
 > Language][nsprust] available in print and ebook format from [No Starch
@@ -7,20 +7,16 @@
 [nsprust]: https://nostarch.com/rust-programming-language-2nd-edition
 [nsp]: https://nostarch.com/
 
-Welcome to *The Rust Programming Language*, an introductory book about Rust.
-The Rust programming language helps you write faster, more reliable software.
-High-level ergonomics and low-level control are often at odds in programming
-language design; Rust challenges that conflict. Through balancing powerful
-technical capacity and a great developer experience, Rust gives you the option
-to control low-level details (such as memory usage) without all the hassle
-traditionally associated with such control.
+؜Rust ھەققىدە تونۇشتۇرۇشنى ئاساس قىلغان دەرىسلىك Rust پىروگرامما لايھەلەش دەرىسلىكىگە كەلگىنىڭىزنى قارشى ئالىمىز. Rust پروگرامما تىلى سىزنىڭ تېخىمۇ تېز ، تېخىمۇ ئىشەنچلىك يۇمشاق دېتال يېزىشىڭىزغا ياردەم بېرىدۇ. پروگرامما تۈزۈشتە يۇقىرى قاتلاملىق ئېرگونومىيىلىك ۋە تۆۋەن قاتلاملىق كونترول قىلىش دائىم زىددىيەتلىك بولىدۇ. Rust دەل مۇشۇ زىدىيەتكە جەڭ ئىلان قىلغان پروگرامما تىلىدۇر. كۈچلۈك بولغان تېخنىكا ئىقتىدارى ۋە مول بولغان ئاچقۇچىلار تەجىربىسىنى تەڭپۇڭلاشتۇرغان ئاساستا، Rust تىلى سىزگە باشقا تىل ياكى ئەنئەنۋىي ئۇسۇلدا كونترول قىلىش تەس بولغان تۆۋەن قاتلاملىق تەپسىلىي كونترول قىلىش (مەسىلەن، ئىچكى ساقلىغۇنچىنى ئىشلىتىش) نى ئۆز تاللىشىڭىزغا قويۇپ بىرىدۇ.
 
-## Who Rust Is For
+## ؜Rust نى كىملەر ئىشلەتسە بولىدۇ؟
 
-Rust is ideal for many people for a variety of reasons. Let’s look at a few of
-the most important groups.
+؜Rust ھەرخىل سەۋەبلەر بىلەن نۇرغۇنلىغان كىشلەرگە ماس كىلىدۇ، مەسىلەن تۆۋەندىكى بىرقانچە تىپتىكى كىشىلەر توپىغا قاراپ باقايلى:
 
-### Teams of Developers
+### ؜گۇرۇپپا ھالەتتىكى ئاچقۇچىلار
+
+؜Rust ئوخشىمىغان دەرىجىدىكى پروگرامما تۈزۈش بىلىملىرى بىلەن ئاچقۇچىلار قوشۇنى ئارىسىدا ھەمكارلىشىشنىڭ ئۈنۈملۈك قورالى ئىكەنلىكىنى ئىسپاتلىدى. تۆۋەن دەرىجىلىك كودلار ھەرخىل ئىنچىكە كەمتۈكلەرگە ئاسان ئۇچرايدۇ ، باشقا تىللاردا تەجرىبىلىك پروگراممېرلارنىڭ كەڭ كۆلەمدە سىناق قىلىشى ۋە ئىنچىكە كود تەكشۈرۈشى ئارقىلىقلا تۇتقىلى بولىدۇ. رۇستە ، تۈزگۈچى بۇ ئاسان كەمتۈكلەر ، جۈملىدىن ماس كېلىدىغان كەمتۈكلەرنى ئۆز ئىچىگە ئالغان كودلارنى رەت قىلىشنى رەت قىلىپ ، دەرۋازىۋەن رولىنى ئوينايدۇ. تەرجىمە قىلغۇچى بىلەن بىللە ئىشلەش ئارقىلىق ، گۇرۇپپا ۋاقىتنى پروگراممىغا مەركەزلەشتۈرەلەيدۇ
+لوگىكا كەمتۈكلەرنى قوغلاشتىن كۆرە.
 
 Rust is proving to be a productive tool for collaborating among large teams of
 developers with varying levels of systems programming knowledge. Low-level code
