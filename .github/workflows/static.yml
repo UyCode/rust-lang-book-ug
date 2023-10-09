@@ -32,24 +32,25 @@ jobs:
       - name: Check Commit Message
         id: check_commit
         run: |
-          if [[ $(git log --format=%B -n 1 ${{ github.sha }}) == *deploy* ]]; then
-            echo "::set-output name=deploy::true"
+          commit_message=$(git log --format=%B -n 1 ${{ github.sha }})
+          if [[ $commit_message == *deploy* ]]; then
+            echo "Deploy=true" > $GITHUB_ENV
           else
-            echo "::set-output name=deploy::false"
+            echo "Deploy=false" > $GITHUB_ENV
           fi
       - name: Checkout
-        if: steps.check_commit.outputs.deploy == 'true'
+        if: env.Deploy == 'true'
         uses: actions/checkout@v3
       - name: Setup Pages
-        if: steps.check_commit.outputs.deploy == 'true'
+        if: env.Deploy == 'true'
         uses: actions/configure-pages@v3
       - name: Upload artifact
-        if: steps.check_commit.outputs.deploy == 'true'
+        if: env.Deploy == 'true'
         uses: actions/upload-pages-artifact@v2
         with:
           # Upload entire repository
           path: './book/'
       - name: Deploy to GitHub Pages
-        if: steps.check_commit.outputs.deploy == 'true'
+        if: env.Deploy == 'true'
         id: deployment
         uses: actions/deploy-pages@v2
