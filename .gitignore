@@ -1,7 +1,8 @@
-book/
 *~
 .idea
 .DS_Store
 target
 tmp
 src/.obsidian/
+book/searchindex.json
+book/searchindex.js
