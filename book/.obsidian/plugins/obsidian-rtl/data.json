@@ -1,0 +1,10 @@
+{
+  "fileDirections": {
+    "ch00-00-introduction.md": "rtl"
+  },
+  "defaultDirection": "ltr",
+  "rememberPerFile": true,
+  "setNoteTitleDirection": true,
+  "setYamlDirection": false,
+  "statusBar": true
+}
