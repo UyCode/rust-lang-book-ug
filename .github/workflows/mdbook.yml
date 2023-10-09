@@ -30,6 +30,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       MDBOOK_VERSION: 0.4.35
+      MDBOOK_OUTPUT: '{"xgettext": {"pot-file": "ug.po"}}'
+      MDBOOK_BOOK_LANGUAGE: ug
     steps:
       - uses: actions/checkout@v3
       - name: Install gettext
