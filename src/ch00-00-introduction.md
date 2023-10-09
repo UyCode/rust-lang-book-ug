@@ -15,6 +15,7 @@
 
 ### ؜گۇرۇپپا ھالەتتىكى ئاچقۇچىلار
 
+Rust
 
 Rust is proving to be a productive tool for collaborating among large teams of
 developers with varying levels of systems programming knowledge. Low-level code
